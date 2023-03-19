@@ -5,4 +5,8 @@ const withNextra = require('nextra')({
  
 module.exports = withNextra({
   basePath: '/beta-mineflayer-docs',
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 });
